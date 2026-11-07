@@ -48,7 +48,7 @@
     background: var(--surface);
     border-bottom: 1px solid var(--border);
   }
-  nav.tabs .wrap { display: flex; gap: 8px; padding: 10px 16px; }
+  nav.tabs .wrap { display: flex; flex-wrap: wrap; gap: 8px; padding: 10px 16px; }
   nav.tabs a {
     text-decoration: none; color: var(--accent);
     padding: 6px 14px; border-radius: 999px;
@@ -95,6 +95,7 @@
   <div class="wrap">
     <a href="#terms">Terms of Service</a>
     <a href="#privacy">Privacy Policy</a>
+    <a href="zoo-questy-support.html">Support</a>
   </div>
 </nav>
 
@@ -339,7 +340,8 @@
 </main>
 
 <footer>
-  &copy; 2026 Danthevetinarian. Zoo Questy is not affiliated with or endorsed by Omaha's Henry Doorly Zoo and Aquarium.
+  &copy; 2026 Danthevetinarian &middot; <a href="zoo-questy-support.html">Support</a><br>
+  Zoo Questy is not affiliated with or endorsed by Omaha's Henry Doorly Zoo and Aquarium.
 </footer>
 
 </body>
