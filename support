@@ -116,9 +116,9 @@
 
 <nav class="tabs" aria-label="Pages">
   <div class="wrap">
-    <a href="zoo-questy-support.html" aria-current="page">Support</a>
-    <a href="zoo-questy-terms-and-privacy.html#terms">Terms of Service</a>
-    <a href="zoo-questy-terms-and-privacy.html#privacy">Privacy Policy</a>
+    <a href="support.html" aria-current="page">Support</a>
+    <a href="index.html#terms">Terms of Service</a>
+    <a href="index.html#privacy">Privacy Policy</a>
   </div>
 </nav>
 
@@ -157,7 +157,7 @@
 
     <details>
       <summary>How do I delete my account?</summary>
-      <p>You can request deletion in the app or by emailing us from the address on your account. Deleting your account permanently removes your progress, badges, points, and My Zoo layouts. We delete account information within 30 days of a request, as described in our <a href="zoo-questy-terms-and-privacy.html#p8">Privacy Policy</a>.</p>
+      <p>You can request deletion in the app or by emailing us from the address on your account. Deleting your account permanently removes your progress, badges, points, and My Zoo layouts. We delete account information within 30 days of a request, as described in our <a href="index.html#p8">Privacy Policy</a>.</p>
     </details>
 
     <h2>Challenges and camera</h2>
@@ -211,12 +211,12 @@
 
     <details>
       <summary>I'm a parent. How do I review or delete my child's information?</summary>
-      <p>Email us from the parent or guardian email linked to your child's account. You can ask to review the information we hold, have it deleted, or stop further collection. We may ask you to confirm you're the child's parent or guardian before acting. See <a href="zoo-questy-terms-and-privacy.html#p6">Children's Privacy</a> for details.</p>
+      <p>Email us from the parent or guardian email linked to your child's account. You can ask to review the information we hold, have it deleted, or stop further collection. We may ask you to confirm you're the child's parent or guardian before acting. See <a href="index.html#p6">Children's Privacy</a> for details.</p>
     </details>
 
     <details>
       <summary>What information does Zoo Questy collect?</summary>
-      <p>Your account details, your game progress, any reports or messages you send, and basic technical and usage information. We don't track your location, don't keep challenge photos, don't show ads, and don't sell your information. Read the full <a href="zoo-questy-terms-and-privacy.html#privacy">Privacy Policy</a>.</p>
+      <p>Your account details, your game progress, any reports or messages you send, and basic technical and usage information. We don't track your location, don't keep challenge photos, don't show ads, and don't sell your information. Read the full <a href="index.html#privacy">Privacy Policy</a>.</p>
     </details>
   </section>
 
@@ -224,8 +224,8 @@
 
 <footer>
   &copy; 2026 Danthevetinarian &middot;
-  <a href="zoo-questy-terms-and-privacy.html#terms">Terms of Service</a> &middot;
-  <a href="zoo-questy-terms-and-privacy.html#privacy">Privacy Policy</a><br>
+  <a href="index.html#terms">Terms of Service</a> &middot;
+  <a href="index.html#privacy">Privacy Policy</a><br>
   Zoo Questy is not affiliated with or endorsed by Omaha's Henry Doorly Zoo and Aquarium.
 </footer>
 
