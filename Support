@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zoo Questy – Support</title>
+<style>
+  :root {
+    --bg: #fbfaf6;
+    --surface: #ffffff;
+    --text: #1f2a24;
+    --muted: #5b6760;
+    --accent: #2f6b4f;
+    --accent-soft: #e6f0ea;
+    --border: #dde3de;
+    --warn: #8a3b12;
+    --warn-soft: #fbeee4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141a17;
+      --surface: #1b231f;
+      --text: #e7ece9;
+      --muted: #a3b0a8;
+      --accent: #7cc4a0;
+      --accent-soft: #22332a;
+      --border: #2c3832;
+      --warn: #f2a77c;
+      --warn-soft: #33241b;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 28px 16px 20px;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  header h1 { margin: 0 0 4px; font-size: 1.6rem; }
+  header p { margin: 0; color: var(--muted); }
+  nav.tabs {
+    position: sticky; top: 0; z-index: 2;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+  }
+  nav.tabs .wrap { display: flex; flex-wrap: wrap; gap: 8px; padding: 10px 16px; }
+  nav.tabs a {
+    text-decoration: none; color: var(--accent);
+    padding: 6px 14px; border-radius: 999px;
+    background: var(--accent-soft); font-weight: 600; font-size: 0.95rem;
+  }
+  nav.tabs a[aria-current="page"] { background: var(--accent); color: var(--surface); }
+  main { padding: 8px 16px 64px; }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 8px 22px 22px;
+    margin-top: 24px;
+  }
+  h2 { font-size: 1.3rem; margin: 18px 0 8px; }
+  p, li { overflow-wrap: anywhere; }
+  a { color: var(--accent); }
+  .contact-btn {
+    display: inline-block; margin: 6px 0 4px;
+    background: var(--accent); color: var(--surface);
+    text-decoration: none; font-weight: 600;
+    padding: 10px 18px; border-radius: 8px;
+  }
+  .muted { color: var(--muted); }
+  .emergency {
+    background: var(--warn-soft);
+    border-left: 4px solid var(--warn);
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-top: 24px;
+  }
+  .emergency strong { color: var(--warn); }
+  details {
+    border-top: 1px solid var(--border);
+    padding: 12px 0;
+  }
+  details:first-of-type { border-top: none; }
+  summary {
+    cursor: pointer; font-weight: 600;
+    list-style: none; position: relative; padding-right: 28px;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary::after {
+    content: "+"; position: absolute; right: 4px; top: -2px;
+    font-size: 1.3rem; color: var(--accent);
+  }
+  details[open] summary::after { content: "–"; }
+  details p, details ul { margin: 8px 0 0; }
+  ul { padding-left: 1.3rem; }
+  footer { text-align: center; color: var(--muted); font-size: 0.9rem; padding: 0 16px 40px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <h1>Zoo Questy Support</h1>
+    <p>Help with your account, challenges, and privacy</p>
+  </div>
+</header>
+
+<nav class="tabs" aria-label="Pages">
+  <div class="wrap">
+    <a href="zoo-questy-support.html" aria-current="page">Support</a>
+    <a href="zoo-questy-terms-and-privacy.html#terms">Terms of Service</a>
+    <a href="zoo-questy-terms-and-privacy.html#privacy">Privacy Policy</a>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <div class="emergency" role="note">
+    <strong>Emergency at the Zoo?</strong> Do not use the app or email. If you see an animal outside its enclosure, an injured animal or person, or any urgent safety issue, tell the nearest Zoo staff member right away or call 911.
+  </div>
+
+  <section class="card" id="contact">
+    <h2>Contact us</h2>
+    <p>Email us with any question, problem, or request. Please include the email address on your account and a short description of what happened, including your device type if something isn't working.</p>
+    <a class="contact-btn" href="mailto:drdanannin2011@gmail.com?subject=Zoo%20Questy%20Support">Email Support</a>
+    <p class="muted">drdanannin2011@gmail.com</p>
+    <p class="muted">Zoo Questy is run by Danthevetinarian and is not part of Omaha's Henry Doorly Zoo and Aquarium. For questions about tickets, hours, memberships, or lost items at the Zoo, please contact the Zoo directly.</p>
+  </section>
+
+  <section class="card" id="faq">
+    <h2>Account and sign-in</h2>
+
+    <details>
+      <summary>How do I create an account?</summary>
+      <p>Open the app and choose "Create one" on the sign-in screen. You can sign up with an email and password, or continue with Google or Apple. You must be 13 or older to create an account on your own; children under 13 need a parent or guardian to create or approve their account.</p>
+    </details>
+
+    <details>
+      <summary>I forgot my password.</summary>
+      <p>On the sign-in screen, tap "Forgot password?" and enter the email on your account. We'll send reset instructions to that address. Check your spam folder if it doesn't arrive within a few minutes.</p>
+      <p>If you signed up with Google or Apple, your password is managed by that provider, so sign in with the same button you used before.</p>
+    </details>
+
+    <details>
+      <summary>I can't sign in or my account seems to be missing.</summary>
+      <p>Make sure you're using the same sign-in method you used when you joined (email, Google, or Apple). Each method can create a separate account. If you used Apple's "Hide My Email," your account is tied to that relay address. If you still can't get in, email us.</p>
+    </details>
+
+    <details>
+      <summary>How do I delete my account?</summary>
+      <p>You can request deletion in the app or by emailing us from the address on your account. Deleting your account permanently removes your progress, badges, points, and My Zoo layouts. We delete account information within 30 days of a request, as described in our <a href="zoo-questy-terms-and-privacy.html#p8">Privacy Policy</a>.</p>
+    </details>
+
+    <h2>Challenges and camera</h2>
+
+    <details>
+      <summary>The camera won't open.</summary>
+      <p>Zoo Questy needs camera permission for plaque scanning and photo challenges. Check that camera access is allowed for the app (or for your browser, if you're playing in one) in your device settings, then reopen the app.</p>
+    </details>
+
+    <details>
+      <summary>My photo or plaque scan wasn't accepted.</summary>
+      <ul>
+        <li>Hold steady and make sure the plaque or subject fills most of the frame.</li>
+        <li>Avoid glare from glass and strong backlighting; try a slightly different angle.</li>
+        <li>Make sure you're photographing the right exhibit or plaque for the challenge.</li>
+        <li>Check that you have a signal; verification needs an internet connection.</li>
+      </ul>
+      <p>Verification isn't perfect, so retaking the photo usually works. Photos are checked and then discarded; we don't keep them. Please never lean over barriers, tap glass, or use flash to get a shot.</p>
+    </details>
+
+    <details>
+      <summary>Does the app track my location?</summary>
+      <p>No. Zoo Questy doesn't use your device's location. Challenges are completed by scanning plaques, matching photos, and solving clues.</p>
+    </details>
+
+    <details>
+      <summary>A challenge isn't showing up or seems wrong.</summary>
+      <p>Some challenges are daily, seasonal, or only available while an exhibit is open, so they may rotate or disappear. Exhibits also change, and app information can be out of date. If something looks wrong, email us the challenge name and what you saw.</p>
+    </details>
+
+    <h2>Progress, badges, and My Zoo</h2>
+
+    <details>
+      <summary>My progress, badges, or points are missing.</summary>
+      <p>First make sure you're signed in to the same account you used before. Progress is saved to your account, not your device. If it's still missing, email us with your account email and roughly when you last saw it. We can't always restore lost progress, but we'll look into it.</p>
+    </details>
+
+    <details>
+      <summary>Can I buy points or items?</summary>
+      <p>No. Zoo Questy is free and has no paid purchases. Badges, points, and My Zoo items are earned by playing and have no cash value.</p>
+    </details>
+
+    <h2>Animal reports</h2>
+
+    <details>
+      <summary>What happens when I report a missing animal?</summary>
+      <p>Your report goes to the Zoo Questy team, not to Zoo staff. We review reports to keep the app accurate and may move the animal to another location in the app or mark it as off exhibit. A report is not an official Zoo statement, and animals are often out of view for normal reasons like resting or receiving care.</p>
+    </details>
+
+    <h2>Privacy and parents</h2>
+
+    <details>
+      <summary>I'm a parent. How do I review or delete my child's information?</summary>
+      <p>Email us from the parent or guardian email linked to your child's account. You can ask to review the information we hold, have it deleted, or stop further collection. We may ask you to confirm you're the child's parent or guardian before acting. See <a href="zoo-questy-terms-and-privacy.html#p6">Children's Privacy</a> for details.</p>
+    </details>
+
+    <details>
+      <summary>What information does Zoo Questy collect?</summary>
+      <p>Your account details, your game progress, any reports or messages you send, and basic technical and usage information. We don't track your location, don't keep challenge photos, don't show ads, and don't sell your information. Read the full <a href="zoo-questy-terms-and-privacy.html#privacy">Privacy Policy</a>.</p>
+    </details>
+  </section>
+
+</main>
+
+<footer>
+  &copy; 2026 Danthevetinarian &middot;
+  <a href="zoo-questy-terms-and-privacy.html#terms">Terms of Service</a> &middot;
+  <a href="zoo-questy-terms-and-privacy.html#privacy">Privacy Policy</a><br>
+  Zoo Questy is not affiliated with or endorsed by Omaha's Henry Doorly Zoo and Aquarium.
+</footer>
+
+</body>
+</html>
